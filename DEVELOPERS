@@ -920,6 +920,7 @@ F:	package/luv/
 F:	package/luvi/
 F:	package/mp4v2/
 F:	package/mpd/
+F:	package/popl/
 F:	package/shairport-sync/
 F:	package/swupdate/
 F:	package/upmpdcli/

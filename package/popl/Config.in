@@ -1,0 +1,6 @@
+config BR2_PACKAGE_POPL
+	bool "popl"
+	help
+	  C++ program options parser library.
+
+	  https://github.com/badaix/popl
