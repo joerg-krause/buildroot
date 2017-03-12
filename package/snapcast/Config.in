@@ -1,0 +1,16 @@
+config BR2_PACKAGE_SNAPCAST
+	bool "snapcast"
+	select BR2_PACKAGE_ALSA_LIB
+	select BR2_PACKAGE_ASIO
+	select BR2_PACKAGE_AVAHI
+	select BR2_PACKAGE_AVAHI_DAEMON
+	select BR2_PACKAGE_AVAHI_LIBDNSSD_COMPATIBILITY
+	select BR2_PACKAGE_FLAC
+	select BR2_PACKAGE_POPL
+	select BR2_PACKAGE_TREMOR
+	help
+	  Snapcast is a multi-room client-server audio player, where
+	  all clients are time synchronized with the server to play
+	  perfectly synced audio.
+
+	  https://github.com/badaix/snapcast
