@@ -1,0 +1,11 @@
+config BR2_PACKAGE_FINIT
+	bool "finit"
+	select BR2_PACKAGE_LIBITE
+	select BR2_PACKAGE_LIBUEV
+	help
+	  Finit is a small event based SysV init replacement with built-in
+	  process supervision similar to that of its more famous cousins
+	  daemontools and runit. Services are supervised and automatically
+	  restarted if they fail.
+
+	  http://troglobit.com/finit.html
