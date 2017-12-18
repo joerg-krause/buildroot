@@ -1,0 +1,7 @@
+config BR2_PACKAGE_LIBUEV
+	bool "libuev"
+	help
+	  libuEv is a simple event loop in the style of the more established
+	  libevent, libev and the venerable Xt(3) event loop.
+
+	  https://github.com/troglobit/libuev

@@ -1,0 +1,5 @@
+# From https://github.com/troglobit/libuev/releases/download/v2.1.0/libuev-2.1.0.tar.xz.md5:
+md5  4e2370cae7e5c91a8db88fe80d424245  libuev-2.1.0.tar.xz
+
+# Locally calculated:
+sha256  a59044bd59292cdd0bd626df5f8215b6819dd2358420c22cd694a29d8bcdcd56  libuev-2.1.0.tar.xz
